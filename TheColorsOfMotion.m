@@ -36,7 +36,6 @@ function TheColorsOfMotion(FileName, MovieTitle, NumberOfSamples)
     figure
     imshow(frames_total);
     saveas(gcf,strcat(MovieTitle,'.png'))
-    saveas(gcf,strcat(MovieTitle), 'pdf')
 
     close all
 end
